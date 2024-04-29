@@ -1,0 +1,146 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    background-image: url(../img/807117.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+header {
+    font-family: 'Upheaval TT (BRK)', sans-serif;
+    min-height: 120px;
+
+}
+
+.navbar-brand img{
+    height: 80px !important;
+}
+
+main{
+    min-height: 100vh;
+
+}
+
+#contein{
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Menu Navbar*/
+#menu{
+    background-color: #a37c3a;
+    opacity: 1;
+    position: absolute;
+    box-shadow: 5px;
+}
+
+#menu a {
+    font-size: 20px;
+    color: #382D1D;
+}
+
+#menu button {
+    font-size: 20px;
+    color: #382D1D;
+}
+
+/* containers */
+
+#contein:hover > .card {
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+#contein:hover>.front{
+    display: none;
+}
+/* Cards */
+
+.card {
+    height: 210px;
+    width: 200px;
+    background-color: #B58C45; 
+    background-size: contain;
+    border: 0px inset #4f4f4f76;
+    box-shadow: 1px 0px 3px 3px ;
+    border-inline-end-color: rgba(37, 27, 19, 0.589);
+    border-inline-start-color: #30271977;
+    border-inline-end-style: outset;
+    border-radius: 10px;
+    border-collapse: collapse;
+    position: relative;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+}
+
+.card-header {
+    font-family: 'Upheaval TT (BRK)', sans-serif;
+    font-weight: 400;
+    background-color: #B58C45;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 5px outset #b58c45;
+    border-radius: 60px;
+    border-bottom-right-radius: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Slide */
+#toggler-navbar {
+    border: 2px solid bisque;
+}
+/* Flip Card */
+
+
+.front,
+.back {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front{
+    background: #B58C45;
+
+}
+
+.back {
+    background: #B58C45;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    border: 10px inset #4f4f4f76;
+    box-shadow: 1px 0px 3px 3px ;
+    border-inline-end-color: rgba(37, 27, 19, 0.589);
+    border-inline-start-color: #30271977;
+    border-inline-end-style: outset;
+    border-radius: 10px;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+}
+
+/*Footer*/
+footer {
+    min-height: 100px;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: #a07937db !important;
+}

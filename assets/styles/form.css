@@ -1,0 +1,35 @@
+/* FORM */
+#form1 {
+    background-color: #a37c3a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #382D1D;
+}
+
+form label {
+    color: #382D1D; 
+}
+
+form input,
+form select,
+form textarea {
+    background-color: #fff;
+    color: #382D1D; 
+    border: 1px solid #382D1D;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Form BTN */
+#opinion {
+    background-color: #382D1D; 
+    color: #fff; 
+    border-radius: 5px;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+#opinion:hover {
+    background-color: #57473a;
+}
